@@ -1,0 +1,111 @@
+.create-booking-content {
+    width: 100%;
+    max-width: 600px;
+    min-width: 470px;
+    margin-top: 20px;
+}
+
+.create-booking-content table{
+    border-radius: 10px !important;
+}
+
+.create-booking-content table {
+    min-width: 200px !important;
+}
+
+.increment, .decrement {
+    height: 35px !important;
+    width: 35px !important;
+    padding: 0px !important;
+    background-color: #f7797d !important;
+    border-color: #f38488 !important;
+}
+
+.price-input-field {
+    padding: 3px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.confirm-booking-btn {
+    border-radius: 30px !important;
+    padding: 5px 30px !important;
+}
+
+.booking-price {
+    margin: 15px 0;
+}
+
+.loading-icon {
+    color: rgb(54, 179, 211);
+    margin: 40px 0;
+}
+/* Receipt Page */
+#booking-receipt {
+    margin: 20px 0;
+    padding: 10px 60px !important;
+}
+
+.receipt-details {
+    border-bottom: 1px solid grey;
+    border-bottom-style: dashed;
+    
+}
+
+.receipt-details p {
+    font-weight: 700;
+    display: inline-block;
+    margin: 5px  !important;
+}
+
+#booking-receipt h4 {
+    letter-spacing: 2px;
+}
+
+#booking-receipt h4 span {
+    color: rgb(30, 148, 30);
+    font-weight: 400;
+}
+
+.receipt-details div {
+    color: #e9555a ;
+    font-weight: 600;
+}
+
+/* Booking Receipt page - car details */
+.receipt-car-details .car-details {
+    display: inline-block;
+    width: 100%;
+    max-width: 170px;
+}
+
+.receipt-car-details .booking-receipt-duration, 
+.receipt-car-details .booking-receipt-price {
+    display: inline-block;
+    width: 100%;
+    max-width: 170px;
+}
+
+/* RETURN CAR COMPONENT */
+.return-car-component {
+    margin-top: 20px !important;
+}
+
+/* MY booking page */
+.my-booking-page {
+    margin-top: 20px;
+    background-color: rgb(255, 254, 254, 0.7);
+    height: 100%;
+}
+.current-booking-button, .history-booking-button {
+    padding: 5px 30px !important;
+    margin-right: 5px !important;
+}
+
+.credit-score {
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: grey;
+}

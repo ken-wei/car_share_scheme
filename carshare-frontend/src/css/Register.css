@@ -1,0 +1,136 @@
+.form-data form {
+    display: inline-block;
+    width: 50vw;
+    min-height: 50vh;
+    max-height: 550px;
+}
+
+.form-data {
+    color:black;
+    display: inline-block;
+    text-align: center;
+    margin: 35px 0;
+    border-radius: 10px;
+    width: 55vw;
+    overflow: hidden;
+    background-color: rgba(228, 227, 227, 0.9);
+    /* background-color:rgba(19, 19, 19, 0.598); */
+    filter: drop-shadow( 0.5px 0.5px 2px rgba(255, 255, 255, 0.646) );
+}
+
+.form-data form input, .form-button {
+    width: 85%;
+    margin: auto;
+}
+
+.form-data h1{
+    margin: 50px;
+}
+
+.form-outer {
+    text-align: center;
+}
+
+.form-button {
+    width: 80%;
+}
+
+.form-data button, .form-data a, .form-data p {
+    text-align: center;
+    width: 100%;
+    /* margin: 10px 0; */
+}
+
+.form-data a {
+    margin-bottom: 5px;
+}
+
+
+.form-error-msg {
+    list-style-type: square;
+    width: 70%;
+    /* background: rgb(207, 53, 53); */
+    font-style: bold;
+    color: rgb(221, 92, 92);
+    margin: 5px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.submit{
+    background-color: #f7797d !important;
+    border-color: #f7797d !important;
+}
+
+/* Input Icon */
+.form-data .form-group{
+    width: 80%;
+    display: inline-block;
+    text-align: left;
+}
+
+.form-data .form-group label {
+    font-weight: 700;
+}
+.inputWithIcon input[type=email], .inputWithIcon input[type=password], .inputWithIcon input[type=text] {
+    padding-left: 45px!important;
+    width: 100%;
+}
+
+.inputWithIcon {
+    position: relative !important;
+}
+
+.inputWithIcon svg {
+    position: absolute;
+    left: 15px;
+    top: 11px;
+    color: #aaa;
+    transition: .3s !important;
+}
+
+.inputWithIcon input[type=email]:focus, .inputWithIcon input[type=password]:focus, 
+.inputWithIcon input[type=password]:active, .inputWithIcon input[type=email]:active,
+.inputWithIcon input[type=text]:active, .inputWithIcon input[type=text]:focus {
+    outline: none !important;
+    border-color: #f7797d !important;
+    box-shadow: 0 0 5px #f7797d !important;
+
+}
+
+.inputWithIcon input[type=email]:focus + svg, .inputWithIcon input[type=password]:active + svg,
+.inputWithIcon input[type=text]:active + svg {
+    color: #f7797d !important;
+}
+
+.inputWithIcon input[type=password]:focus + svg, .inputWithIcon input[type=password]:active + svg,
+.inputWithIcon input[type=text]:focus + svg {
+    color: #f7797d !important;
+}
+
+/* Forgot Password */
+.password-field a{
+    color: rgb(131, 123, 123);
+    padding-left: 10px;
+    text-underline-position: below;
+}
+
+.form-button a {
+    display: block !important;
+    margin: 0 0 20px 0 !important;
+    color: rgb(202, 120, 134);
+    font-weight: 700;
+}
+
+.form-button a:hover, .form-button a:active {
+    color: rgb(189, 54, 54);
+}
+
+/* Login page Sign up Part */
+.not-a-member {
+    margin-top: 30px;
+    font-weight: 550;
+}

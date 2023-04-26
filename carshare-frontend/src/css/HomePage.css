@@ -1,0 +1,95 @@
+.infowindow-close {
+    float: right;
+    width: 20px !important;
+    padding: 0px !important;
+    height: 20px !important;
+    margin: 0 !important;
+    font-size: 10px !important;
+}
+
+.infowindow-title {
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: rgb(65, 133, 179);
+}
+
+/* Info window title icon  */
+.infowindow-title svg {
+    vertical-align: middle;
+}
+
+/* Car model */
+.info-window .car-model {
+    font-weight: 700;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.info-window .position-icon {
+    color: rgb(226, 50, 50);
+    vertical-align: middle;
+    margin: 10px 10px 10px 0;
+}
+
+.info-window .car-address-icon {
+    color: rgb(145, 45, 67);
+    vertical-align: middle;
+    margin: 0 10px 10px 0;
+}
+
+.price-container {
+    margin: 10px 0 10px 0px;
+
+}
+
+.price-container .price-tag, .price-container .price-dollar {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* book button */
+.info-window .book-button {
+    text-align: center;
+    width: 100%;
+    
+}
+
+.info-window .book-button button {
+    border-radius: 20px !important;
+    padding: 5px 30px 5px 30px !important;
+}
+
+
+/**  HOME PAGE  **/
+#homepage-container {
+    max-width: 100% !important;
+    width: 100%;
+}
+
+.home-booking-table{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255, 254, 254, 0.3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.home-booking-table > div:first-of-type{
+    display: inline-block !important;
+    text-align: center !important;
+}
+
+/**  Distance button */
+.home-car-table-distance-button {
+    border-radius: 20px !important;
+    padding: 0 !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    margin-bottom: 10px !important;
+}
+
+/* Book label */
+.home-car-book-icon {
+    color: rgb(241, 177, 58) !important;
+}

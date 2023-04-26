@@ -1,0 +1,75 @@
+/* Giving background image for the app centered and no repetition and should cover the whole page*/
+body {
+  text-align: center;
+  background-image: url('./css/assets/app_background_2_blurred.jpg');
+  min-height: 100vh!important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Style the nav bar to fit with the background color and give hover effect */
+.nav-bar{
+  background-color: #232a34;
+  line-height: 5vh;
+  /* padding: 0 16px !important; */
+}
+
+/* Each element inside the navbar */
+.nav-bar-button{
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.nav-bar-button:hover, .nav-bar-button:active{
+  background-color:#f39d1a;
+  border-radius: 25px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Styling for the main content for every page */
+.content{
+  min-height:100vh;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  /* background-color: rgba(228, 227, 227, 0.3); */
+  filter: drop-shadow( 0.5px 0.5px 2px rgba(255, 255, 255, 0.646) );
+}
+
+.content > div:first-of-type{
+  max-width: 80% !important;
+  display: block !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.content Table{
+  background-color:white!important;
+}
+
+
+

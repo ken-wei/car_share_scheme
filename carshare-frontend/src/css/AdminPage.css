@@ -1,0 +1,89 @@
+.admin-tab-bar {
+    background-color: #f7797d !important;
+    border-color: #f56b6f !important;
+}
+
+.admin-tab-bar-container {
+    padding: 15px 0;
+    text-align: left;
+}
+
+.admin-tab-bar-active {
+    background-color: #e6343a !important;
+}
+
+.solved-text {
+    color: rgb(6, 219, 6);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.unsolved-text {
+    color: red;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+/**
+ *  Admin Issue Detail Page
+ *
+*/
+
+.issue-details-page {
+    margin: 20px 0;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    padding:20px;
+    background-color: rgba(228, 227, 227, 0.9);
+    /* background-color:rgba(19, 19, 19, 0.598); */
+    filter: drop-shadow( 0.5px 0.5px 2px rgba(255, 255, 255, 0.646) );
+    width: 100%;
+    min-width: 330px;
+}
+
+.issue-title {
+    width: 100%;
+    margin: 5px 0 15px 0;
+}
+
+.issue-title span {
+    font-size: min(5vw, 30px);
+}
+
+.issue-details-page .table {
+    border-radius: 10px !important;
+}
+
+/* STATE/ ACTIONS*/
+.refund-button, .refund-button:active, .refund-button:focus {
+    border-radius: 30px !important;
+    padding: 10px 50px 10px 50px !important;
+    background-color: rgb(37, 158, 37) !important;
+    border-color: rgb(44, 180, 44) !important;
+    margin: 30px 0 30px 0 !important;
+    font-weight: 700 !important;
+}
+
+.select-option {
+    width: 100%;
+    max-width: 400px;
+    min-width: 100px; 
+    text-align-last:center;
+}
+
+.issue-details-page .booking-option h4 {
+    padding: 20px 0;
+}
+
+.issue-details-page .booking-option .table {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+}
+.issue-details-page .booking-option {
+    text-align: center;
+}
+
+
